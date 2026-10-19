@@ -31,3 +31,30 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# CampusHub local files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.zip
+*.docx
+.gitignore.backup
+.gitignore.local
+
+# Backend
+**/target/
+**/.idea/
+*.iml
+
+# Frontend
+**/node_modules/
+**/dist/
+**/coverage/
+
+# Editor and logs
+.vscode/
+*.log
+
+**/.git-inner-backup/
